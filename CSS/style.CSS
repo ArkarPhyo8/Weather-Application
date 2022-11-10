@@ -1,0 +1,80 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.weather_card{
+    width: 60%;
+    background-color: #00000080;
+    padding: 2rem 5rem;
+    color: white;
+    margin: 3rem auto auto;
+}
+.weather_today{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.city h1{
+    font-size: 32px;
+}
+.city p{
+    font-size: 20px;
+}
+.icon_text h2{
+    font-size: 28px;
+}
+.weather_temp h1{
+    font-size: 42px;
+}
+.weather_temp > div #span1{
+    font-size: 20px;
+    color: rgb(147, 32, 70);
+}
+.weather_temp > div #span2{
+    font-size: 20px;
+    color: rgb(43, 226, 104);
+}
+.weather_menu{
+    margin-top: 2rem;
+}
+.menu{
+    display: flex;
+    gap: 2rem;
+    border-bottom: 1px solid;
+}
+.menu > span:nth-child(1){
+    margin-left: 1rem;
+}
+.menu > span{
+    padding: 0.3rem 0;
+    opacity: 0.5;
+}
+.menu > span.active{
+    border-bottom: 3px solid;
+    opacity: 1;
+}
+.weather_data_list{
+    display: flex;
+    gap: 2.5rem;
+    width: 100%;
+    flex-wrap: nowrap;
+    overflow: hidden;
+    margin-top: 1rem;
+}
+
+.weather_hourly{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.weather_hourly > p:nth-child(1){
+    font-size: larger;
+    width: 5rem;
+    display: flex;
+    justify-content: center;
+}
